@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 70px;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    
+}
+
+header img{
+    margin-left:20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    list-style: none;
+    gap:15px;
+    margin-top: 35px;
+    margin-right: 350px;
+}
+
+a{
+    color:black;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.botones {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 950px;
+    padding-top: 25px;
+}
+
+.is{
+    border-radius: 12px;
+    border-color: black;
+    background-color: transparent;
+    height: 30px;
+    width: 90px;
+    padding: 10px 5px;
+    
+}
+
+.re{
+    color: white;
+    border-radius: 12px;
+    border-color: black;
+    background-color: black;
+    height: 30px;
+    padding: 6px 6px;
+    margin-right: 5px;
+    
+}
+
+
+main{
+    background-color: rgb(32, 68, 32);
+    height: 400px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+h1{
+    font-size: 2.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+span{
+    color: white;
+
+}
+
+ h2{
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+main .uno{
+    margin-bottom: 5px;
+}
+
+
+main p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: row ;
+    background-color: crimson;
+    height: 400px;
+    width: 60%;
+    margin-left: 100px;
+    color: white;
+    margin: 30px auto;
+}
+
+.division{
+    text-align: center;
+    
+    
+}
+
+.division h2{
+    margin-top: 30px;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    padding-left: 50px;
+}
+
+.division p{
+    padding-top: 30px;
+    margin-left: 100px;
+}
+
+.division button{
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 10px 15px;
+    border: solid white 1px;
+    border-radius: 12px;
+    background-color: transparent;
+    color: white;
+}
+
+
+article{
+    display: flex;
+    flex-direction: row;
+    background-color: crimson;
+    height: 400px;
+    width: 60%;
+    margin: 30px auto;
+    
+}
+
+
+article img{
+    margin-left: 120px;
+    
+}
+
+.ult {
+    margin-left:100px;
+    
+}
+
+h3{
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+h4{
+    font-size: 2.5em;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.ult p{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 1em;
+    color: white;
+}
+
+.ult button{
+    border: solid white 1px;
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 6px 15px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+}
+
+footer{
+    width: 60%;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 480px;
+}
+
+
+
+
+
+
+
+
